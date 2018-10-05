@@ -1,6 +1,6 @@
 package cl.clubhipico.clubhipico_rsalazar.object;
 
-public class mandilObject {
+public class MandilObject {
 	private int numero;
 	public int getNumero() {
 		return numero;
