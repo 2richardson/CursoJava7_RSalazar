@@ -6,6 +6,9 @@ import cl.clubhipico.clubhipico_rsalazar.object.JineteObject;
 import cl.clubhipico.clubhipico_rsalazar.object.PersonaObject;
 
 public class ClubHipicoMain {
+	public void compararCaballo(CaballoObject caballo1, CaballoObject caballo2){
+		
+	}
 	public static void main (String[] args){
 		CarreraObject carrera = new CarreraObject();
 		System.out.println("Carrera Object: "+carrera);
