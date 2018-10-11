@@ -1,8 +1,9 @@
 package cl.clubhipico.clubhipico_rsalazar.object;
 
 public class PersonaObject extends AnimalObject{
+
 	private String profesion;
-	private String mail;
+	private String email;
 	
 	public String getProfesion() {
 		return profesion;
@@ -10,15 +11,17 @@ public class PersonaObject extends AnimalObject{
 	public void setProfesion(String profesion) {
 		this.profesion = profesion;
 	}
-	public String getMail() {
-		return mail;
+	public String getEmail() {
+		return email;
 	}
-	public void setMail(String mail) {
-		this.mail = mail;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	@Override
 	public String toString() {
-		return "PersonaObject [profesion=" + profesion + ", mail=" + mail + "]";
+		return "PersonaObject [profesion=" + profesion + ", email=" + email + "]";
 	}
+	
+	
 	
 }

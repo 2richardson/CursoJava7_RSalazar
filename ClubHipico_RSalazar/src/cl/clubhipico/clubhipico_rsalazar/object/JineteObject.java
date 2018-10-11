@@ -1,7 +1,7 @@
 package cl.clubhipico.clubhipico_rsalazar.object;
 
-public class JineteObject extends PersonaObject {
-	
+public class JineteObject extends PersonaObject{
+
 	private CaballoObject caballo;
 
 	public CaballoObject getCaballo() {
@@ -16,5 +16,8 @@ public class JineteObject extends PersonaObject {
 	public String toString() {
 		return "JineteObject [caballo=" + caballo + "]";
 	}
+	
+	
+	
 	
 }

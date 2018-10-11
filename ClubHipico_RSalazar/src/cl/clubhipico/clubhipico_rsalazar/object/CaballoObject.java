@@ -6,5 +6,7 @@ public class CaballoObject extends AnimalObject{
 	public String toString() {
 		return "CaballoObject []";
 	}
+
+	
 	
 }

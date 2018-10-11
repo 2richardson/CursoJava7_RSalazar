@@ -1,25 +1,30 @@
 package cl.clubhipico.clubhipico_rsalazar.object;
 
 public class ApostadorObject {
+
 	private String nombre;
-	private String nroBoleto;
-	private int monto;
+	private String numeroBoleto;
+	private double monto;
+	
 	public String getNombre() {
 		return nombre;
 	}
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public String getNroBoleto() {
-		return nroBoleto;
+	public String getNumeroBoleto() {
+		return numeroBoleto;
 	}
-	public void setNroBoleto(String nroBoleto) {
-		this.nroBoleto = nroBoleto;
+	public void setNumeroBoleto(String numeroBoleto) {
+		this.numeroBoleto = numeroBoleto;
 	}
-	public int getMonto() {
+	public double getMonto() {
 		return monto;
 	}
-	public void setMonto(int monto) {
+	public void setMonto(double monto) {
 		this.monto = monto;
 	}
+	
+	
+	
 }
