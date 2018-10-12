@@ -5,7 +5,7 @@ import java.util.List;
 import cl.clubhipico.clubhipico_rsalazar.controller.BaseController;
 
 public class DataBaseUtil<T> implements BaseController<T>{
-
+	
 	@Override
 	public boolean insert(T object) {
 		// TODO Auto-generated method stub
