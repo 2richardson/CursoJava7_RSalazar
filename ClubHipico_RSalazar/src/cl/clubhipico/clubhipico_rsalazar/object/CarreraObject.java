@@ -1,5 +1,8 @@
 package cl.clubhipico.clubhipico_rsalazar.object;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import cl.clubhipico.clubhipico_rsalazar.object.enums.PistaEnum;
 
 public class CarreraObject {
@@ -9,11 +12,13 @@ public class CarreraObject {
 	private String nombre;
 	private int distancia;
 	private PistaEnum pista;
-	private CaballoObject caballo1;
-	private CaballoObject caballo2;
-	private CaballoObject caballo3;
+	private List<CaballoObject> caballoList;
 	private TipoApuestaObject tipoApuesta;
 	private ApostadorObject apostador;
+	
+	public CarreraObject() {
+		this.caballoList=new ArrayList<CaballoObject>();
+	}
 	
 	//permite definir un valor string a nombre 
 	public void setNombre(String nombre) {
@@ -41,29 +46,6 @@ public class CarreraObject {
 		this.pista = pista;
 	}
 
-	public CaballoObject getCaballo1() {
-		return caballo1;
-	}
-
-	public void setCaballo1(CaballoObject caballo1) {
-		this.caballo1 = caballo1;
-	}
-
-	public CaballoObject getCaballo2() {
-		return caballo2;
-	}
-
-	public void setCaballo2(CaballoObject caballo2) {
-		this.caballo2 = caballo2;
-	}
-
-	public CaballoObject getCaballo3() {
-		return caballo3;
-	}
-
-	public void setCaballo3(CaballoObject caballo3) {
-		this.caballo3 = caballo3;
-	}
 
 	public TipoApuestaObject getTipoApuesta() {
 		return tipoApuesta;
@@ -80,6 +62,22 @@ public class CarreraObject {
 	public void setApostador(ApostadorObject apostador) {
 		this.apostador = apostador;
 	}
+
+	public List<CaballoObject> getCaballoList() {
+		return caballoList;
+	}
+
+	public void setCaballoList(List<CaballoObject> caballoList) {
+		this.caballoList = caballoList;
+	}
+
+	@Override
+	public String toString() {
+		return "CarreraObject [nombre=" + nombre + ", distancia=" + distancia + ", pista=" + pista + ", caballoList="
+				+ caballoList + ", tipoApuesta=" + tipoApuesta + ", apostador=" + apostador + "]";
+	}
+
+	
 	
 	
 	

@@ -5,7 +5,7 @@ import cl.clubhipico.clubhipico_rsalazar.object.JineteObject;
 import cl.clubhipico.clubhipico_rsalazar.object.PersonaObject;
 import cl.clubhipico.clubhipico_rsalazar.object.enums.SexoEnum;
 import cl.clubhipico.clubhipico_rsalazar.util.ClubHipicoUtil;
-//import cl.clubhipico.clubhipico_rsalazar.util.ClubHipicoUtilNoStatic;
+import cl.clubhipico.clubhipico_rsalazar.util.ClubHipicoUtilNoStatic;
 
 public class ClubHipicoArregloMain {
 
@@ -37,8 +37,8 @@ public class ClubHipicoArregloMain {
 		jinetesArray[2].setNombre("Pedrito");
 		
 		jinetesArray[0].setSexo(SexoEnum.MASCULINO);
-		jinetesArray[1].setSexo(SexoEnum.FEMENINO);
-		jinetesArray[2].setSexo(SexoEnum.FEMENINO);
+		jinetesArray[1].setSexo(SexoEnum.FEMININO);
+		jinetesArray[2].setSexo(SexoEnum.FEMININO);
 
 		//Otra forma de instanciar el arreglo
 		CaballoObject[] caballosArray = {caballo, caballo, caballo};

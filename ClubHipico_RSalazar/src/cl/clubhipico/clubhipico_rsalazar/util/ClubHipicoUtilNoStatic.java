@@ -5,8 +5,6 @@ import cl.clubhipico.clubhipico_rsalazar.object.JineteObject;
 import cl.clubhipico.clubhipico_rsalazar.object.PersonaObject;
 import cl.clubhipico.clubhipico_rsalazar.object.enums.SexoEnum;
 
-
-
 /*Clase utilitario con metodos static*/
 public class ClubHipicoUtilNoStatic {
 
